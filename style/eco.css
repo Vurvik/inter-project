@@ -1,0 +1,119 @@
+*{margin:0 auto;}
+
+body{
+    background:url("../images/qwer.png");
+    background-attachment:fixed;
+    }
+
+
+.platform
+    {
+    background: #ededed;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(5,5,5,5);
+    }
+
+
+.header_menu
+    {
+    float: right;
+	padding-left: 0px;
+	margin-right:5px;
+	margin-left:5px;
+	
+    }
+
+
+.header_text_logo
+    {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 40px;
+    margin:10px;
+    color:#053e09;
+    display:inline-block;
+    }
+
+
+  li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 15px;
+	cursor: pointer;
+    }
+
+
+li:hover{
+    background:#6e7e9f;
+    color:white;
+   border-bottom:3px solid #ffb734;
+     border-left:1px solid #000;
+    border-right:1px solid #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+
+
+.header_menu_chapter_1{
+    background:#7690b5;
+    color:white;
+    border-bottom:3px solid #ffb734;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    }
+
+
+.header-img{
+   float:left;
+   padding-left: 20px;
+   padding-right: 20px;
+   }
+
+
+.delta_content{
+   padding-top:500px;
+   padding-right:50px;
+   width:600px;
+   height:200px;
+   color:white;
+   font-size:16px;
+   text-align:justify;
+   padding-left:50px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   }
+
+
+
+/*content*/
+.content{
+   height:800px;
+   width:800px;
+   background:url(../images/wer.jpg) 800px 800px;
+   }
+
+
+.but{
+    color:white;
+    font-family:Arial Narrow;
+    font-size:16px;
+    text-align:center;
+    display:inline-block;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-right:344px;
+    margin-left:344px;
+    margin-top: 30px;
+	border:1px solid #fff;
+	}
+
+
+.but:hover{
+   border-radius:5px;
+   border:1px solid yellow;
+   color:yellow;
+   }
